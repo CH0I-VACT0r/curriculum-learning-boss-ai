@@ -1,0 +1,68 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1757966257",
+        "python_version": "3.8.20 (default, Oct  3 2024, 15:19:54) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\golf5\\.conda\\envs\\BossAITest\\Scripts\\mlagents-learn D:/Software_Capstone_Design/BossAI_Test/Config/Boss_AI_Config.yaml --run-id=BossAI-BuildRun1 --env=D:/Software_Capstone_Design/BossAI_Test/Build/BossAI_Test.exe --no-graphics --force",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.10.0+cu113",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1757966339"
+    },
+    "total": 82.26550979999999,
+    "count": 1,
+    "self": 10.015186699999987,
+    "children": {
+        "run_training.setup": {
+            "total": 0.2670804000000002,
+            "count": 1,
+            "self": 0.2670804000000002
+        },
+        "TrainerController.start_learning": {
+            "total": 71.9832427,
+            "count": 1,
+            "self": 0.0003527000000076441,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.7548517,
+                    "count": 1,
+                    "self": 9.7548517
+                },
+                "TrainerController.advance": {
+                    "total": 60.0886853,
+                    "count": 1,
+                    "self": 2.920000000727896e-05,
+                    "children": {
+                        "env_step": {
+                            "total": 60.088656099999994,
+                            "count": 1,
+                            "self": 60.0886455,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 1.0599999999527654e-05,
+                                    "count": 1,
+                                    "self": 1.0599999999527654e-05
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 2.139353,
+                    "count": 1,
+                    "self": 0.005022100000005025,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 2.134330899999995,
+                            "count": 1,
+                            "self": 2.134330899999995
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

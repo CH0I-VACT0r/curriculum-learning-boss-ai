@@ -1,0 +1,31 @@
+behaviors:
+  BossAI_001:
+    trainer_type: sac
+    hyperparameters:
+      batch_size: 2048
+      buffer_size: 200000         
+      buffer_init_steps: 5000
+      learning_rate: 1.0e-5
+      learning_rate_schedule: constant
+      tau: 0.005 
+      steps_per_update: 20.0
+      save_replay_buffer: false 
+      init_entcoef: 0.1 
+    network_settings:
+      normalize: true
+      hidden_units: 512
+      num_layers: 3
+      vis_encode_type: simple
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+    init_path: null
+    keep_checkpoints: 5
+    checkpoint_interval: 500000
+    max_steps: 3000000
+    time_horizon: 128
+    summary_freq: 10000
+    threaded: false
+    self_play: null
+    behavioral_cloning: null

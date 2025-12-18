@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Software_Capstone_Design\\BossAI_Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|d:\\software_capstone_design\\bossai_test\\assets\\_cs\\bossagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|solutionrelative:assets\\_cs\\bossagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|D:\\Software_Capstone_Design\\BossAI_Test\\assets\\_cs_attack\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|solutionrelative:assets\\_cs_attack\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|D:\\Software_Capstone_Design\\BossAI_Test\\assets\\_cs_attack\\attackhitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|solutionrelative:assets\\_cs_attack\\attackhitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|D:\\Software_Capstone_Design\\BossAI_Test\\assets\\_cs_others\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|solutionrelative:assets\\_cs_others\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|D:\\Software_Capstone_Design\\BossAI_Test\\assets\\_cs_move\\navmeshtargetmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|solutionrelative:assets\\_cs_move\\navmeshtargetmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|D:\\Software_Capstone_Design\\BossAI_Test\\assets\\_cs_move\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAB38A5-3493-A2B7-4287-7C213669B74C}|Assembly-CSharp.csproj|solutionrelative:assets\\_cs_move\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TimeManager.cs",
+              "DocumentMoniker": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS_Others\\TimeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_CS_Others\\TimeManager.cs",
+              "ToolTip": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS_Others\\TimeManager.cs",
+              "RelativeToolTip": "Assets\\_CS_Others\\TimeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T18:54:37.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttackHitbox.cs",
+              "DocumentMoniker": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS_Attack\\AttackHitbox.cs",
+              "RelativeDocumentMoniker": "Assets\\_CS_Attack\\AttackHitbox.cs",
+              "ToolTip": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS_Attack\\AttackHitbox.cs",
+              "RelativeToolTip": "Assets\\_CS_Attack\\AttackHitbox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T07:33:27.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttackState.cs",
+              "DocumentMoniker": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS_Attack\\AttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\_CS_Attack\\AttackState.cs",
+              "ToolTip": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS_Attack\\AttackState.cs",
+              "RelativeToolTip": "Assets\\_CS_Attack\\AttackState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T07:23:09.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NavMeshTargetMovement.cs",
+              "DocumentMoniker": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS_Move\\NavMeshTargetMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\_CS_Move\\NavMeshTargetMovement.cs",
+              "ToolTip": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS_Move\\NavMeshTargetMovement.cs",
+              "RelativeToolTip": "Assets\\_CS_Move\\NavMeshTargetMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T16:56:17.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BossAgent.cs",
+              "DocumentMoniker": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS\\BossAgent.cs",
+              "RelativeDocumentMoniker": "Assets\\_CS\\BossAgent.cs",
+              "ToolTip": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS\\BossAgent.cs",
+              "RelativeToolTip": "Assets\\_CS\\BossAgent.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAlwD8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T15:15:52.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MoveState.cs",
+              "DocumentMoniker": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS_Move\\MoveState.cs",
+              "RelativeDocumentMoniker": "Assets\\_CS_Move\\MoveState.cs",
+              "ToolTip": "D:\\Software_Capstone_Design\\BossAI_Test\\Assets\\_CS_Move\\MoveState.cs",
+              "RelativeToolTip": "Assets\\_CS_Move\\MoveState.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T07:05:31.62Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

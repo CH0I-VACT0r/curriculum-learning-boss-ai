@@ -1,0 +1,29 @@
+{
+    "BossAI_001": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\BossAI-BuildRun1\\BossAI_001\\BossAI_001-0.onnx",
+                "reward": null,
+                "creation_time": 1757966329.9565494,
+                "auxillary_file_paths": [
+                    "results\\BossAI-BuildRun1\\BossAI_001\\BossAI_001-0.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 0,
+            "file_path": "results\\BossAI-BuildRun1\\BossAI_001.onnx",
+            "reward": null,
+            "creation_time": 1757966329.9565494,
+            "auxillary_file_paths": [
+                "results\\BossAI-BuildRun1\\BossAI_001\\BossAI_001-0.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.10.0+cu113"
+    }
+}
