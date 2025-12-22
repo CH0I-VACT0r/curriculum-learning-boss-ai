@@ -63,7 +63,33 @@ mlagents-learn config/ppo/BossAgent_Phase2.yaml --run-id=Phase2_Final --initiali
 
 ### Demo
 #### Performance Comparison
-/Assets/ONXX/Boss_AI_SG : PPO Modular
-/Assets?ONXX2/
+Assets/ONNX/BOSSAI_SG.onnx : 모듈식 ppo
+
+Assets/ONNX/MONO.onxx : 통합 학습 방식 ppo
+
+Assets/ONNX_2/Modular 1 & 2.onnx : 모듈식 ppo
+
+Assets/ONNX_2/MONO 1 & 2.onnx : 통합 학습 방식 ppo
+
+Assets/ONNX_2/SAC 1 & 2.onnx : 통합 학습 방식 sac
+
+Assets/ONNX_2/SAC_Tuned.onnx : sac 하이퍼파라미터 튜닝
+
+## Conclusion and Future Work
+본 프로젝트는 복잡한 3D 액션 환경에서 모듈식 학습이 통합 학습 방식보다 우수한 수렴 속도와 성능을 보임을 입증하였다. 특히 엔트로피 제어 실패로 불안정한 모습을 보인 SAC 알고리즘과 달리, 제안된 PPO 기반 모듈식 모델은 안정적인 내비게이션과 높은 공격 적중률을 동시에 달성했다.
+
+### Future Work:
+Skill Diversity: 단일 공격을 넘어 스킬을 선택하는 계층적 강화학습(Hierarchical RL)으로 확장.
+
+Multi-Agent: 1:1 전투를 넘어 다수의 플레이어와 상호작용하는 레이드(Raid) 보스 AI 연구.
+
+Complex Terrain: 장애물이 복잡한 환경에서의 내비게이션 지능 고도화.
+
+### Author
+Name: 최성우 / SUNG-WOO CHOI
+
+Contact: Vactor823@khu.ac.kr
+
+Affiliation: 경희대학교
 
 
