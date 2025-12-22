@@ -50,12 +50,18 @@ ml-agents 0.30.0 / torch 1.13.1
 ``` 
     git clone https://github.com/your-username/your-repo-name.git
 ```
-2. Install Python dependencies:
+2. Create a Virtual Environment (Recommended) : I recommend using Anaconda to manage dependencies and avoid version conflicts
+```
+conda create -n ml-agents python=3.9.13
+conda activate ml-agents
+```
+3. Install Python dependencies:
 ```
     pip install mlagents==0.30.0 torch==1.13.1
+
 ```
 
-3. Open the project in Unity Hub.
+4. Open the project in Unity Hub.
 
 ---
 ### Training (How to Run)
