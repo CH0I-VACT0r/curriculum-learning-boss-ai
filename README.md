@@ -52,18 +52,18 @@ ml-agents 0.30.0 / torch 1.13.1
 ```
 2. Create a Virtual Environment (Recommended) : I recommend using Anaconda to manage dependencies and avoid version conflicts
 ```
-conda create -n ml-agents python=3.9.13
-conda activate ml-agents
+    conda create -n ml-agents python=3.9.13
+    conda activate ml-agents
 ```
 3. Install Python dependencies:
 ```
     pip install mlagents==0.30.0 torch==1.13.1
-
 ```
 
 4. Open the project in Unity Hub.
 
 ---
+
 ### Training (How to Run)
 #### Phase 1: Movement Training
 ```
