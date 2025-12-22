@@ -67,11 +67,11 @@ conda activate ml-agents
 ### Training (How to Run)
 #### Phase 1: Movement Training
 ```
-mlagents-learn config/ppo/BossAgent_Phase1.yaml --run-id=Phase1_Movement
+mlagents-learn Config/Boss_AI_Config.yaml --run-id=Phase1_Movement
 ```
 #### Phase 2: Attack Integration (Transfer Learning)
 ```
-mlagents-learn config/ppo/BossAgent_Phase2.yaml --run-id=Phase2_Final --initialize-from=Phase1_Movement
+mlagents-learn Config/Boss_AI_Config.yaml --run-id=Phase2_Final --initialize-from=Phase1_Movement
 ```
 
 ---
