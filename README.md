@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning for RPG Boss AI
+# Modular Reinforcement Learning for RPG Boss AI
 
 
 모듈식 강화학습을 활용한 고성능 RPG 보스 AI 구현 프로젝트
@@ -10,7 +10,13 @@
 현대 RPG 게임의 보스 몬스터는 대부분 짜여진 스크립트 기반으로 동작하여, 패턴이 단조롭고 반복 플레이 시 플레이어에게 쉽게 공략당하는 문제가 있다. 본 프로젝트는 강화학습을 도입하여 타겟과의 거리 유지와 정밀 타격이 가능한 보스 AI를 구현하는 것을 목표로 한다. 특히, 이동과 공격이 결합된 복잡한 행동 공간에서의 학습 불안정성을 해결하기 위해 모듈식 커리큘럼 학습 프레임워크를 제안한다.
 
 ### 2. 핵심 성과 (Key Results)
-- 압도적인 성능 향상: 기존 통합 학습 대비 공격 성공률 15% → 98.3% 달성.
+## Results at a Glance
+
+| Metric | End-to-End PPO | Proposed |
+|---------|---------------:|---------:|
+| Target Tracking | 31.1% | **96.1%** |
+| Attack Accuracy | 15.0% | **95.9%** |
+| Attack Attempts | 1.65 | **16.57** |
 
 - 정교한 제어: 타겟과의 거리 유지 비율 96.1% 및 벽 충돌 최소화 (Episode당 0.05회).
 
@@ -77,7 +83,6 @@ mlagents-learn Config/Boss_AI_Config.yaml --run-id=Phase2_Final --initialize-fro
 ---
 ### Usage Guide (Inference & Time Scale)
 #### How to Run Inference (Pre-trained Models)
-학습이 완료된 ONNX 모델을 적용하여 파이썬 연결 없이 유니티 에디터 상에서 AI를 테스트하는 방법
 
 1. Navigate to the Assets/ONNX (or Assets/ONNX_2) folder to find the trained .onnx files.
 
